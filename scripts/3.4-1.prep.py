@@ -13,8 +13,8 @@ for tgtLang in langs:
     for feat in ['.comb', '']:
         srcs = []
         for srcLang in srcLangs:
-            srcs.append('data_balanced_non_tokenized/' + srcLang + '-data-200tweets.json.balanced' + feat)
-        cmd = 'python3 scripts/concatJson.py ' + tgtDir + '/4lang-data-200tweets.json.balanced.' + tgtLang + feat + ' ' + ' '.join(srcs)
+            srcs.append('data/' + srcLang + '-data-200tweets.json.balanced' + feat)
+        cmd = 'python3 scripts/0.concatJson.py ' + tgtDir + '/4lang-data-200tweets.json.balanced.' + tgtLang + feat + ' ' + ' '.join(srcs)
         print(cmd)
         
 

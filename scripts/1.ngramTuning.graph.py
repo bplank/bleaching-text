@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 if len(sys.argv) < 2:
     print('usage:')
-    print('grep "^mean acc" outputs/1.ngram/*out > results')
+    print('grep "^mean acc" runs/1.ngram/*out > results')
     print('python3 scripts/1.ngramTuning.graph.py results')
     exit(0)
 

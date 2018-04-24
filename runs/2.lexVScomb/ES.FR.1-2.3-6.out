@@ -1,0 +1,32 @@
+load data..
+vectorize data..
+Vocab size: 19777788
+['F' 'M']
+Classifier accuracy train: 100.00
+===== dev set ====
+Classifier: 55.56
+             precision    recall  f1-score   support
+
+          F     0.8182    0.1429    0.2432       504
+          M     0.5304    0.9683    0.6854       504
+
+avg / total     0.6743    0.5556    0.4643      1008
+
+weighted f1: 46.4
+accuracy: 55.6
+===
+first instance
+Majority weighted F1: 33.33 acc: 50.00
+test data/FR-data-200tweets.json.balanced
+n_gram 1-2
+show_instance False
+pred False
+embeds None
+tf_idf False
+only_mean False
+folds 10
+c_n_gram 3-6
+C 1
+data data/ES-data-200tweets.json.balanced
+analyze_features None
+rm_uu False

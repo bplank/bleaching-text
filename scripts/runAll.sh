@@ -1,4 +1,4 @@
-echo "SHALL WE INCLUDE THE RAW DATA?"
+echo "SHALL WE INCLUDE THE RAW DATA IN THE REPO?"
 python3 scripts/0.featurize.py > run.sh
 chmod +x run.sh
 ./run.sh
