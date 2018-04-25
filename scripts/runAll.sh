@@ -19,3 +19,9 @@ python3 scripts/3.4-1.run.sh > run.sh
 chmod +x run.sh
 ./run.sh
 
+python3 scripts/4.embeds.prep.py
+python3 scripts/4.embeds.run.py > run.sh
+chmod +x run.sh
+./run.sh
+
+

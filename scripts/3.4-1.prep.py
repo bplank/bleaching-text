@@ -10,7 +10,7 @@ for tgtLang in langs:
     srcLangs.remove(tgtLang) 
 
     #combine for comb, lex (and combLex?)
-    for feat in ['.comb', '']:
+    for feat in ['.comb', '.combOrig', '']:
         srcs = []
         for srcLang in srcLangs:
             srcs.append('data/' + srcLang + '-data-200tweets.json.balanced' + feat)

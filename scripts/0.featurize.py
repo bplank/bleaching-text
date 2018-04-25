@@ -11,8 +11,8 @@ for lang in ['EN', 'ES', 'FR', 'NL', 'PT']:
     cmd = 'python3 scripts/0.combineJson.py ' + langPath + '.comb ' + ' ' + ' '.join(allFeats)
     print(cmd)
     
-    #cmd = 'python3 scripts/0.combineJson.py ' + langPath + '.combOrig ' + ' '.join([langPath] * len(allFeats))
-    #print(cmd)
+    cmd = 'python3 scripts/0.combineJson.py ' + langPath + '.combOrig ' + ' '.join([langPath] * len(allFeats))
+    print(cmd)
 
     #cmd = 'python3 scripts/0.combineJson.py ' + langPath + '.combPlusLex ' + langPath + ' ' + ' '.join(allFeats) + ' '
     #print(cmd)

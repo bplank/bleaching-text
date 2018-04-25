@@ -207,7 +207,7 @@ def analyze(args):
     print(classifier.classes_)
 
     ## notice: this works as of now only for the transformed data, as it fetches original for an approx. mapping
-    if args.data.endswith(".balanced"):
+    if args.data.endswith(".balanced") or args.data[:-3].endswith(".balanced"):
         original_texts = json.load(open(args.data))['tweets']
     elif args.data.find(".comb") > 0:
         original_texts = json.load(open(args.data.replace('comb', 'combOrig')))['tweets']
