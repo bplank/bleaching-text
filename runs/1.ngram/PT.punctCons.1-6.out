@@ -1,0 +1,142 @@
+load data..
+vectorize data..
+Vocab size: 736595
+['F' 'M']
+Classifier accuracy train: 54.39
+===== dev set ====
+Classifier: 53.25
+             precision    recall  f1-score   support
+
+          F     0.7778    0.0909    0.1628       154
+          M     0.5172    0.9740    0.6757       154
+
+avg / total     0.6475    0.5325    0.4192       308
+
+weighted f1: 41.9
+['F' 'M']
+Classifier accuracy train: 69.47
+===== dev set ====
+Classifier: 61.04
+             precision    recall  f1-score   support
+
+          F     0.5664    0.9416    0.7073       154
+          M     0.8269    0.2792    0.4175       154
+
+avg / total     0.6967    0.6104    0.5624       308
+
+weighted f1: 56.2
+['F' 'M']
+Classifier accuracy train: 66.93
+===== dev set ====
+Classifier: 58.44
+             precision    recall  f1-score   support
+
+          F     0.7600    0.2468    0.3725       154
+          M     0.5504    0.9221    0.6893       154
+
+avg / total     0.6552    0.5844    0.5309       308
+
+weighted f1: 53.1
+['F' 'M']
+Classifier accuracy train: 80.29
+===== dev set ====
+Classifier: 67.65
+             precision    recall  f1-score   support
+
+          F     0.6311    0.8497    0.7242       153
+          M     0.7700    0.5033    0.6087       153
+
+avg / total     0.7005    0.6765    0.6665       306
+
+weighted f1: 66.6
+['F' 'M']
+Classifier accuracy train: 54.31
+===== dev set ====
+Classifier: 51.63
+             precision    recall  f1-score   support
+
+          F     1.0000    0.0327    0.0633       153
+          M     0.5083    1.0000    0.6740       153
+
+avg / total     0.7542    0.5163    0.3686       306
+
+weighted f1: 36.9
+['F' 'M']
+Classifier accuracy train: 71.09
+===== dev set ====
+Classifier: 62.09
+             precision    recall  f1-score   support
+
+          F     0.7681    0.3464    0.4775       153
+          M     0.5781    0.8954    0.7026       153
+
+avg / total     0.6731    0.6209    0.5900       306
+
+weighted f1: 59.0
+['F' 'M']
+Classifier accuracy train: 56.56
+===== dev set ====
+Classifier: 51.96
+             precision    recall  f1-score   support
+
+          F     0.6250    0.0980    0.1695       153
+          M     0.5106    0.9412    0.6621       153
+
+avg / total     0.5678    0.5196    0.4158       306
+
+weighted f1: 41.6
+['F' 'M']
+Classifier accuracy train: 80.33
+===== dev set ====
+Classifier: 68.30
+             precision    recall  f1-score   support
+
+          F     0.6522    0.7843    0.7122       153
+          M     0.7295    0.5817    0.6473       153
+
+avg / total     0.6908    0.6830    0.6797       306
+
+weighted f1: 68.0
+['F' 'M']
+Classifier accuracy train: 57.64
+===== dev set ====
+Classifier: 51.63
+             precision    recall  f1-score   support
+
+          F     0.7273    0.0523    0.0976       153
+          M     0.5085    0.9804    0.6696       153
+
+avg / total     0.6179    0.5163    0.3836       306
+
+weighted f1: 38.4
+['F' 'M']
+Classifier accuracy train: 71.81
+===== dev set ====
+Classifier: 65.03
+             precision    recall  f1-score   support
+
+          F     0.5975    0.9216    0.7249       153
+          M     0.8286    0.3791    0.5202       153
+
+avg / total     0.7130    0.6503    0.6226       306
+
+weighted f1: 62.3
+==================================
+mean f1: 52.39 (11.25)
+mean acc: 59.10 (6.35)
+===
+first instance
+Majority weighted F1: 33.33 acc: 50.00
+show_instance False
+pred False
+n_gram 1-6
+only_mean False
+tf_idf False
+c_n_gram 0
+test None
+rm_uu False
+data data/PT-data-200tweets.json.balanced.punctCons
+analyze_features None
+embeds None
+folds 10
+C 1
