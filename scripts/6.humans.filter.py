@@ -11,12 +11,15 @@ train = json.load(open(sys.argv[2]))
 idxs = []
 for humanIdx in range(len(human['tweets'])):
     splittedTweets = human['tweets'][humanIdx].split('NEWLINE')
-    comp1 = splittedTweets[0]
-    comp2 = splittedTweets[1]
     for trainIdx in range(len(train['tweets'])):
-        if train['tweets'][trainIdx].find(comp1) >= 0 and train['tweets'][trainIdx].find(comp2) >= 0:
+        found = 0
+        for i in range(len(splittedTweets)):
+            if train['tweets'][trainIdx].find(splittedTweets[i]) >= 0:
+                found += 1
+        if found > 10:
             idxs.append(trainIdx)
 
+print(len(train['tweets']))
 print(len(idxs), len(human['tweets']))
 newTrain = {'tweets':[], 'gender':[]}
 newTest = {'tweets':[], 'gender':[]}
@@ -31,5 +34,5 @@ for i in range(len(train['tweets'])):
 print(len(newTrain['tweets']))
 print(len(newTest['tweets']))
 json.dump(newTrain, open(sys.argv[3] + '.train', 'w'))
-json.dump(newTrain, open(sys.argv[3] + '.test', 'w'))
+json.dump(newTest, open(sys.argv[3] + '.test', 'w'))
 

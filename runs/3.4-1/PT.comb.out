@@ -17,16 +17,21 @@ accuracy: 58.9
 ===
 first instance
 Majority weighted F1: 33.33 acc: 50.00
+vectorize data..
+Vocab size: 19065907
+['F' 'M']
+(19065907, (-0.034136064327919664, 0.021040724774297654), -2.7631720501727206e-07, 5.171994715037831e-08, -0.6544729127504593, 509.40518610276)
+['F' 'M']
+pred False
+show_instance False
+only_mean False
+embeds None
+C 1
+tf_idf False
+c_n_gram 0
+n_gram 5
 folds 10
 test data/PT-data-200tweets.json.balanced.comb
-embeds None
-data data_4-1/4lang-data-200tweets.json.balanced.PT.comb
-analyze_features None
-only_mean False
-show_instance False
-tf_idf False
-n_gram 5
-c_n_gram 0
-C 1
-pred False
 rm_uu False
+analyze_features runs/3.4-1//PT.comb.feats
+data data_4-1/4lang-data-200tweets.json.balanced.PT.comb

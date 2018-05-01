@@ -24,4 +24,12 @@ python3 scripts/4.embeds.run.py > run.sh
 chmod +x run.sh
 ./run.sh
 
+./scripts/6.humans.prep.sh
+python3 scripts/6.humans.run.py > run.sh
+chmod +x run.sh
+./run.sh
+
+python3 scripts/9.bigTable.py
+python3 scripts/9.smallTable.py
+python3 scripts/9.humanTable.py
 

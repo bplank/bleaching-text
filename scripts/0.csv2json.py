@@ -17,8 +17,8 @@ for i in range(1,len(sys.argv)):
             if len(row) != 31 and len(row) != 33:
                 print('Error!', len(row))
                 continue
-            guess = row[12]
-            gold = row[13]
+            guess = row[10]
+            gold = row[11]
             sentId = row[0]
             userId = row[7]
             tweets = ' NEWLINE '.join(row[15:35])

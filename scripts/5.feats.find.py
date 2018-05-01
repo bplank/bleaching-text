@@ -2,6 +2,7 @@ import os
 import sys
 
 if len(sys.argv) < 2:
+    print('usage:')
     print('grep "^$" -A 1 runs/3.4-1/*comb*/* | grep -v ":$" | grep -v "^--$" > results')
     print('python3 scripts/5.feats.find.py results')
     exit(1) 

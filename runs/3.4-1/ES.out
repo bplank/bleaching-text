@@ -17,16 +17,21 @@ accuracy: 63.5
 ===
 first instance
 Majority weighted F1: 33.33 acc: 50.00
-folds 10
+vectorize data..
+Vocab size: 19743833
+['F' 'M']
+(19743833, (-0.018485748167073057, 0.015708132831766215), -6.830201955110924e-08, 2.9201162011838337e-09, -1.582670440478444, 2161.6917789968165)
+['F' 'M']
 embeds None
-pred False
-tf_idf False
-test data/ES-data-200tweets.json.balanced
-show_instance False
-analyze_features None
-only_mean False
-C 1
-n_gram 1-2
-rm_uu False
-data data_4-1/4lang-data-200tweets.json.balanced.ES
 c_n_gram 3-6
+data data_4-1/4lang-data-200tweets.json.balanced.ES
+folds 10
+test data/ES-data-200tweets.json.balanced
+only_mean False
+n_gram 1-2
+pred False
+rm_uu False
+show_instance False
+analyze_features runs/3.4-1//ES.feats
+C 1
+tf_idf False
