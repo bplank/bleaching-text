@@ -1,6 +1,6 @@
 load data..
 vectorize data..
-Vocab size: 2243495
+Vocab size: 2243435
 ['F' 'M']
 Classifier accuracy train: 99.87
 ===== dev set ====
@@ -14,29 +14,29 @@ avg / total     0.6515    0.6512    0.6510        86
 
 weighted f1: 65.1
 ['F' 'M']
-Classifier accuracy train: 99.35
+Classifier accuracy train: 99.87
 ===== dev set ====
-Classifier: 67.44
+Classifier: 65.12
              precision    recall  f1-score   support
 
-          F     0.7419    0.5349    0.6216        43
-          M     0.6364    0.8140    0.7143        43
+          F     0.6275    0.7442    0.6809        43
+          M     0.6857    0.5581    0.6154        43
 
-avg / total     0.6891    0.6744    0.6680        86
+avg / total     0.6566    0.6512    0.6481        86
 
-weighted f1: 66.8
+weighted f1: 64.8
 ['F' 'M']
 Classifier accuracy train: 100.00
 ===== dev set ====
-Classifier: 70.93
+Classifier: 68.60
              precision    recall  f1-score   support
 
-          F     0.7143    0.6977    0.7059        43
-          M     0.7045    0.7209    0.7126        43
+          F     0.6739    0.7209    0.6966        43
+          M     0.7000    0.6512    0.6747        43
 
-avg / total     0.7094    0.7093    0.7093        86
+avg / total     0.6870    0.6860    0.6857        86
 
-weighted f1: 70.9
+weighted f1: 68.6
 ['F' 'M']
 Classifier accuracy train: 100.00
 ===== dev set ====
@@ -52,15 +52,15 @@ weighted f1: 70.8
 ['F' 'M']
 Classifier accuracy train: 100.00
 ===== dev set ====
-Classifier: 62.79
+Classifier: 66.28
              precision    recall  f1-score   support
 
-          F     0.6486    0.5581    0.6000        43
-          M     0.6122    0.6977    0.6522        43
+          F     0.6750    0.6279    0.6506        43
+          M     0.6522    0.6977    0.6742        43
 
-avg / total     0.6304    0.6279    0.6261        86
+avg / total     0.6636    0.6628    0.6624        86
 
-weighted f1: 62.6
+weighted f1: 66.2
 ['F' 'M']
 Classifier accuracy train: 100.00
 ===== dev set ====
@@ -122,21 +122,21 @@ avg / total     0.7074    0.6905    0.6840        84
 
 weighted f1: 68.4
 ==================================
-mean f1: 66.00 (3.35)
-mean acc: 66.22 (3.37)
+mean f1: 65.93 (2.90)
+mean acc: 66.10 (2.91)
 ===
 first instance
 Majority weighted F1: 33.33 acc: 50.00
-only_mean False
-show_instance False
-pred False
-tf_idf False
-embeds None
-c_n_gram 0
-data data/EN-data-200tweets.json.balanced.comb
-C 1
 test None
-folds 10
+pred False
 rm_uu False
-n_gram 5
+show_instance False
 analyze_features None
+data data/EN-data-200tweets.json.balanced.comb
+only_mean False
+c_n_gram 0
+embeds None
+folds 10
+C 1
+n_gram 5
+tf_idf False

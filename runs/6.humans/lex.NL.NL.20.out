@@ -1,32 +1,32 @@
 load data..
 vectorize data..
-Vocab size: 855478
+Vocab size: 4004921
 ['F' 'M']
 Classifier accuracy train: 100.00
 ===== dev set ====
-Classifier: 70.50
+Classifier: 69.00
              precision    recall  f1-score   support
 
-          F     0.6916    0.7400    0.7150       100
-          M     0.7204    0.6700    0.6943       100
+          F     0.7065    0.6500    0.6771       100
+          M     0.6759    0.7300    0.7019       100
 
-avg / total     0.7060    0.7050    0.7046       200
+avg / total     0.6912    0.6900    0.6895       200
 
-weighted f1: 70.5
-accuracy: 70.5
+weighted f1: 69.0
+accuracy: 69.0
 ===
 first instance
 Majority weighted F1: 33.33 acc: 50.00
-folds 10
-test data_humans/NL.filtered.test.20
-pred False
-only_mean False
-tf_idf False
-analyze_features None
-show_instance False
-data data_humans/NL.filtered.train.20
 rm_uu False
-c_n_gram 3-6
-C 1
-embeds None
+folds 10
+show_instance False
 n_gram 1-2
+c_n_gram 3-6
+only_mean False
+pred False
+embeds None
+test data_humans/NL.filtered.test.20
+analyze_features None
+C 1
+tf_idf False
+data data_humans/NL.filtered.train

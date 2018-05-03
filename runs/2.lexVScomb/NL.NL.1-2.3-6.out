@@ -127,16 +127,16 @@ mean acc: 81.31 (4.31)
 ===
 first instance
 Majority weighted F1: 33.33 acc: 50.00
-test None
-analyze_features None
-show_instance False
-tf_idf False
-folds 10
-n_gram 1-2
-C 1
-c_n_gram 3-6
-rm_uu False
-data data/NL-data-200tweets.json.balanced
 pred False
+show_instance False
+test None
 only_mean False
+folds 10
+tf_idf False
+analyze_features None
 embeds None
+data data/NL-data-200tweets.json.balanced
+C 1
+rm_uu False
+n_gram 1-2
+c_n_gram 3-6

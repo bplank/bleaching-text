@@ -1,10 +1,15 @@
 # bleaching-text
 
-To reproduce results from the paper (the default number of threads is 4):
-./scripts/runAll.sh <numThreads>
+you need python packages:
+emoji
+sklearn
+numpy
 
-and then:
-./scripts/getResults
+To reproduce results from the paper (note that they are also already included in the runs folder):
+./scripts/runAll.sh
+parallel -j 16 < run.sh 
 
+To generate the tables from the paper:
+./scripts/getResults.sh
 
 

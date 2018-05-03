@@ -4,29 +4,29 @@ Vocab size: 4004921
 ['F' 'M']
 Classifier accuracy train: 100.00
 ===== dev set ====
-Classifier: 50.00
+Classifier: 50.50
              precision    recall  f1-score   support
 
-          F     0.0000    0.0000    0.0000       100
-          M     0.5000    1.0000    0.6667       100
+          F     1.0000    0.0100    0.0198       100
+          M     0.5025    1.0000    0.6689       100
 
-avg / total     0.2500    0.5000    0.3333       200
+avg / total     0.7513    0.5050    0.3443       200
 
-weighted f1: 33.3
-accuracy: 50.0
+weighted f1: 34.4
+accuracy: 50.5
 ===
 first instance
 Majority weighted F1: 33.33 acc: 50.00
-only_mean False
-embeds None
-rm_uu False
 folds 10
-c_n_gram 3-6
-test data_humans/PT.filtered.test.20
+test data_humans/PT.filtered.test
+only_mean False
+data data_humans/NL.filtered.train
+show_instance False
+rm_uu False
+n_gram 1-2
+embeds None
+pred False
 C 1
 analyze_features None
-data data_humans/NL.filtered.train
-n_gram 1-2
-show_instance False
-pred False
+c_n_gram 3-6
 tf_idf False

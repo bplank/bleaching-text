@@ -127,16 +127,16 @@ mean acc: 86.01 (1.09)
 ===
 first instance
 Majority weighted F1: 33.33 acc: 50.00
-C 1
-c_n_gram 3-6
 embeds None
-pred False
-tf_idf False
-test None
-data data/PT-data-200tweets.json.balanced
-folds 10
-only_mean False
-rm_uu False
-show_instance False
-n_gram 1-2
 analyze_features None
+only_mean False
+show_instance False
+c_n_gram 3-6
+data data/PT-data-200tweets.json.balanced
+C 1
+pred False
+folds 10
+test None
+n_gram 1-2
+rm_uu False
+tf_idf False

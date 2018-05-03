@@ -17,16 +17,16 @@ accuracy: 50.4
 ===
 first instance
 Majority weighted F1: 33.33 acc: 50.00
-pred False
-folds 10
 tf_idf False
-rm_uu False
 analyze_features None
-only_mean False
-c_n_gram 3-6
 data data/EN-data-200tweets.json.balanced
+rm_uu False
 n_gram 1-2
 C 1
-show_instance False
 test data/ES-data-200tweets.json.balanced
+show_instance False
 embeds None
+only_mean False
+c_n_gram 3-6
+pred False
+folds 10
