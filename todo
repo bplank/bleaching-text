@@ -1,5 +1,4 @@
  - readme
- - why are avg abs different compared to paper?
  - fix embeds (Barbara, I think im missing some pre-processing for prefixing?)
  - include raw data in repo?
  - share embeds somewhere?
