@@ -29,7 +29,7 @@ for run in ['200', '20']:
 
 
 for run in ['200', '20']:
-    train = 'data_humans/NL.filtered.train'
+    train = 'data/NL-data-200tweets.json.balanced'
     test = 'data_humans/PT.filtered.test'
     if run == '20':
         test = test + '.20'

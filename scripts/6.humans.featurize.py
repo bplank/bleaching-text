@@ -1,6 +1,6 @@
 import os
 
-for langPath in ['NL.filtered.train', 'NL.filtered.test', 'NL.filtered.train.20', 'NL.filtered.test.20', 'data/FR-data-20tweets.json.balanced', 'PT.filtered.test.20']:
+for langPath in ['NL.filtered.train', 'NL.filtered.test', 'NL.filtered.test.20', 'PT.filtered.test.20', 'PT.filtered.test']:
     if langPath[0] != 'd':
         langPath = 'data_humans/' + langPath
     allFeats = []

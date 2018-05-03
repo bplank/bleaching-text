@@ -15,4 +15,14 @@ echo ""
 python3 scripts/9.humanTable.py
 echo "" 
 
+echo "NL.NL Fleiss"
+python3 scripts/9.fleiss.py humanData/dutch2dutch/*csv
+
+echo "FR.NL Fleiss"
+python3 scripts/9.fleiss.py humanData/french2dutch/*csv
+
+echo "NL.PT Fleiss"
+python3 scripts/9.fleiss.py humanData/dutch2port/*csv
+
+echo ""
 
