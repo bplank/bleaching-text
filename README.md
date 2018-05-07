@@ -16,3 +16,17 @@ To generate the tables from the paper:
 ./scripts/getResults.sh
 ```
 
+If you use parts of this repository we appreciate if you cite us:
+
+```
+@InProceedings{vangoot:ea:2018,
+  author    = {van der Goot, Rob and Ljube\v{s}i\'{c}, Nikola  and Matroos, Ian and Nissim, Malvina and Plank, Barbara},
+  title     = {Bleaching Text: Abstract Features for Cross-lingual Gender Prediction},
+  booktitle = {Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics},
+  month     = {August},
+  year      = {2018},
+  address   = {Melbourne},
+  publisher = {Association for Computational Linguistics},
+}
+
+```
