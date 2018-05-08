@@ -1,3 +1,4 @@
+import os
 import json
 
 dataString = '-data-200tweets.json.balanced'
@@ -17,7 +18,11 @@ for lang in langs:
     table.append([lang])
 
     #users
-    users = str(len(json.load(open('data/' + lang + dataString))['gender']))
+    if os.path.exists('data/' + lang + dataString):
+        users = str(len(json.load(open('data/' + lang + dataString))['gender']))
+    else:
+        users = '0'
+    # add commas
     if len(users) == 4:
         users = users[0] + ',' + users[1:]
     else:
